@@ -15,5 +15,5 @@ gulp.task('static', function(){
 });
 
 gulp.task('default', ['ect', 'static'], function() {
-  // place code for your default task here
+    console.log("type 'npm run serve' to deploy it to http-server\n");
 });
