@@ -1,5 +1,7 @@
 {
     "title": "example CV",
     "author": "nevermoi",
-    "updatedOn": "2016-02-14"
+    "updatedOn": "2016-02-14",
+    "firstName": "Tom",
+    "lastName": "Jackson"
 }
