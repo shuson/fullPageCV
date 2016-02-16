@@ -9,6 +9,11 @@ gulp.task('ect', function(){
       .pipe(gulp.dest('./dist'));
 });
 
-gulp.task('default', ['ect'], function() {
+gulp.task('static', function(){
+    gulp.src(['./src/style.css', './src/script.js'])
+        .pipe(gulp.dest('./dist'));
+});
+
+gulp.task('default', ['ect', 'static'], function() {
   // place code for your default task here
 });

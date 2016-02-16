@@ -1,29 +1,30 @@
 {
-  "name": "full-page-cv",
-  "version": "1.0.0",
-  "description": "a full page cv using fullPage.js",
-  "main": "gulpfile.js",
-  "dependencies": {
-    "gulp": "^3.9.1"
-  },
-  "devDependencies": {
-    "gulp-ect": "^1.3.1"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/shuson/fullPageCV.git"
-  },
-  "keywords": [
+    "name": "full-page-cv",
+    "version": "1.0.0",
+    "description": "a full page cv using fullPage.js",
+    "main": "gulpfile.js",
+    "dependencies": {
+        "gulp": "^3.9.1"
+    },
+    "devDependencies": {
+        "gulp-ect": "^1.3.1"
+    },
+    "scripts": {
+        "serve": "http-server dist -p 9000",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/shuson/fullPageCV.git"
+    },
+    "keywords": [
     "fullpage",
     "cv"
   ],
-  "author": "nevermoi <wglq@hotmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/shuson/fullPageCV/issues"
-  },
-  "homepage": "https://github.com/shuson/fullPageCV#readme"
+    "author": "nevermoi <wglq@hotmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/shuson/fullPageCV/issues"
+    },
+    "homepage": "https://github.com/shuson/fullPageCV#readme"
 }
