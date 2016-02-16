@@ -1,9 +1,11 @@
 var gulp = require('gulp');
-var ect = require('ect');
+var ect = require('gulp-ect');
+
+var cv = require('./src/example.json')
 
 gulp.task('ect', function(){
-  gulp.src('./src/*.ect')
-      .pipe(ect())
+  gulp.src('./src/CV.ect')
+      .pipe(ect({data: cv}))
       .pipe(gulp.dest('./dist'));
 });
 
