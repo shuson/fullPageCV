@@ -1,13 +1,24 @@
 {
-    "title": "example CV",
+    "title": "Sam Wang Shusen's CV",
     "author": "nevermoi",
     "updatedOn": "2016-02-14",
-    "firstName": "Tom",
-    "lastName": "Jackson",
+    "firstName": "Sam",
+    "lastName": "Wang Shusen",
     "description": "Java and JavaScript stack developer",
-    "email": "cv@example.com",
+    "email": "wlgq@hotmail.com",
     "phone": "(65) 9876 5432",
-    "github": "https://github.com/",
-    "linkedin": "https://linkedin.com/",
-    "website": "http://nevermoi.com"
+    "github": "https://github.com/shuson",
+    "linkedin": "https://sg.linkedin.com/in/shuson",
+    "website": "http://nevermoi.com",
+
+    "stacks": [
+        {
+            "primary": "Java",
+            "enum": ["Spring MVC", "Maven", "Hibernate"]
+        },
+        {
+            "primary": "JavaScript",
+            "enum": ["Nodejs", "Reactjs", "jQuery", "Vuejs"]
+        }
+    ]
 }

@@ -8,7 +8,7 @@
     <meta name="updated-on" content="2016-02-14" />
     <meta name="Resource-type" content="Document" />
 
-    <title> example CV </title>
+    <title> Sam Wang Shusen's CV </title>
 
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.7/jquery.fullPage.min.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -60,6 +60,23 @@ a:hover {
     padding: 1.2em;
 }
 
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(2px, 0, 0);
+  }
+}
 
 /* Section 0
 	* --------------------------------------- */
@@ -121,14 +138,31 @@ a:hover {
     text-shadow: 3px 3px #547980;
 }
 
-#section1 .box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -192px;
-    margin-left: 89px;
-    width: 395px;
-    z-index: 1;
+#section1 .tag-panel {
+    margin: 0.8em auto;
+}
+
+.tag.expert{
+    font-size: 1.3em !important;
+    opacity: 1 !important;
+    background-color: #6C5B7B !important;
+}
+
+#section1 .tag {
+    font-size: 1.1em;
+    background-color: #F67280;
+    color: #aee2d9;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 2px 8px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.tag:hover {
+    animation: shake 0.4s;
 }
 
 
@@ -203,13 +237,13 @@ a:hover {
 
         <div id="fullpage">
             <div class="section" id="section0">
-                <h1><span id="first-name">Tom</span> <span id="last-name">Jackson</span></h1>
+                <h1><span id="first-name">Sam</span> <span id="last-name">Wang Shusen</span></h1>
                 <div class="box">
                     <em> Java and JavaScript stack developer </em>
                 </div>
                 <div class="box">
                     <span class="contact email"><i class="fa fa-envelope"></i>&nbsp;
-                        <a href="mailto:cv@example.com">cv@example.com</a>
+                        <a href="mailto:wlgq@hotmail.com">wlgq@hotmail.com</a>
                     </span>
                     <br />
                     <span class="contact phone"><i class="fa fa-phone"></i>&nbsp;
@@ -217,10 +251,10 @@ a:hover {
                     </span>
                     <br />
                     <span class="contact">
-                                                <a href="https://github.com/"><i class="fa fa-github fa-2x"></i></a>
+                                                <a href="https://github.com/shuson"><i class="fa fa-github fa-2x"></i></a>
                                             </span>
                     <span class="contact">
-                                                <a href="https://linkedin.com/"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                                                <a href="https://sg.linkedin.com/in/shuson"><i class="fa fa-linkedin-square fa-2x"></i></a>
                                             </span>
                     <span class="contact">
                                                 <a href="http://nevermoi.com"><i class="fa fa-home fa-2x"></i></a>
@@ -230,10 +264,20 @@ a:hover {
             <div class="section" id="section1">
                 <h1>Professions</h1>
                 <div class="wrap">
-                    <div class="box">
-                        text in box div
-                    </div>
-                </div>
+            		                    <div class="tag-panel">
+                    	<span class="tag expert">Java</span>
+                    	                    	<span class="tag">Spring MVC</span>
+                    	                    	<span class="tag">Maven</span>
+                    	                    	<span class="tag">Hibernate</span>
+                    	                    </div>
+                                        <div class="tag-panel">
+                    	<span class="tag expert">JavaScript</span>
+                    	                    	<span class="tag">Nodejs</span>
+                    	                    	<span class="tag">Reactjs</span>
+                    	                    	<span class="tag">jQuery</span>
+                    	                    	<span class="tag">Vuejs</span>
+                    	                    </div>
+                                    </div>
             </div>
 
             <div class="section moveDown" id="section2">

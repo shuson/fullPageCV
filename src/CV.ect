@@ -37,9 +37,14 @@
             <div class="section" id="section1">
                 <h1>Professions</h1>
                 <div class="wrap">
-                    <div class="box">
-                        text in box div
+            		<% for stack in @stacks : %>
+                    <div class="tag-panel">
+                    	<span class="tag expert"><%- stack.primary %></span>
+                    	<% for skill in stack.enum : %>
+                    	<span class="tag"><%- skill %></span>
+                    	<% end %>
                     </div>
+                    <% end %>
                 </div>
             </div>
 

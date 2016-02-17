@@ -45,6 +45,23 @@ a:hover {
     padding: 1.2em;
 }
 
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(2px, 0, 0);
+  }
+}
 
 /* Section 0
 	* --------------------------------------- */
@@ -106,14 +123,31 @@ a:hover {
     text-shadow: 3px 3px #547980;
 }
 
-#section1 .box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -192px;
-    margin-left: 89px;
-    width: 395px;
-    z-index: 1;
+#section1 .tag-panel {
+    margin: 0.8em auto;
+}
+
+.tag.expert{
+    font-size: 1.3em !important;
+    opacity: 1 !important;
+    background-color: #6C5B7B !important;
+}
+
+#section1 .tag {
+    font-size: 1.1em;
+    background-color: #F67280;
+    color: #aee2d9;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 2px 8px;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.tag:hover {
+    animation: shake 0.4s;
 }
 
 
