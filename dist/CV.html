@@ -13,7 +13,157 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.7/jquery.fullPage.min.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <style type="text/css">
+    
+body {
+    color: #333;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
 
+/* Common styles
+	* --------------------------------------- */
+
+img {
+    -webkit-transition: all 0.7s ease-out;
+    -moz-transition: all 0.7s ease-out;
+    -o-transition: all 0.7s ease-out;
+    transition: all 0.7s ease-out;
+}
+
+a {
+    color: #808080;
+}
+
+a:hover {
+    color: #033649;
+}
+
+.section {
+    text-align: center;
+    overflow: hidden;
+    padding: 60px 0;
+}
+
+
+.wrap {
+    width: 1180px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.box {
+    text-align: center;
+    color: #808080;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    padding: 1.2em;
+}
+
+
+/* Section 0
+	* --------------------------------------- */
+#section0 h1 {
+    font-size: 4em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin-top: 10%;
+    width: auto;
+    text-decoration: underline;
+    text-decoration-color: #E8DDCB;
+    color: #594F4F;
+}
+
+#first-name {
+    font-style: italic;
+    color: #7A6A53;
+}
+
+#last-name {
+
+}
+
+#section0 .contact {
+    display: inline-block;
+    padding: 10px;
+}
+
+.fa-envelope, .fa-phone {
+    display: none;
+}
+
+.email:hover i{
+    display: inline;
+}
+
+.phone:hover i{
+    display: inline;
+}
+
+#section0 img {
+    height: 100%;
+    margin: 40px 0 0 0;
+}
+
+
+/* Section 1
+	* --------------------------------------- */
+#section1 {
+
+}
+
+#section1 .box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -192px;
+    margin-left: 89px;
+    width: 395px;
+    z-index: 1;
+}
+
+
+/* Section 2
+	* --------------------------------------- */
+
+#section2 {
+
+}
+
+#section2 .box {
+    top: 22%;
+    left: 42%;
+    position: absolute;
+    width: 582px;
+}
+
+
+/* Section 3
+	* --------------------------------------- */
+
+#section3 .box {
+    text-align: center;
+    margin: 10% 0 0 0;
+}
+
+
+/* Overwriting fullPage.js tooltip color
+	* --------------------------------------- */
+
+.fp-tooltip {
+    color: #AAA;
+}
+
+#fp-nav span,
+.fp-slidesNav span {
+    border-color: #AAA;
+}
+
+#fp-nav li .active span,
+.fp-slidesNav .active span {
+    background: #AAA;
+}
+
+</style>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.7/jquery.fullPage.min.js"></script>
@@ -21,14 +171,14 @@
 </head>
 
 <body>
-
+    
     <body>
 
         <div id="fullpage">
             <div class="section" id="section0">
                 <h1><span id="first-name">Tom</span> <span id="last-name">Jackson</span></h1>
                 <div class="box">
-                    <em> This is a short example message </em>
+                    <em> Java and JavaScript stack developer </em>
                 </div>
                 <div class="box">
                     <span class="contact email"><i class="fa fa-envelope"></i>&nbsp;
@@ -36,7 +186,7 @@
                     </span>
                     <br />
                     <span class="contact phone"><i class="fa fa-phone"></i>&nbsp;
-                        <a href="#">9876 5432</a>
+                        <a href="#">(65) 9876 5432</a>
                     </span>
                     <br />
                     <span class="contact">
@@ -79,5 +229,33 @@
 
     </body>
 </body>
-    <script type="text/javascript" src="script.js"></script>
-</html>
+    <script type="text/javascript">
+    $(document).ready(function () {
+        $('#fullpage').fullpage({
+            //design
+            controlArrows: true,
+            verticalCentered: false,
+            sectionsColor: ['#80D7FF', '#69E875', '#FFEE73', '#FFA49D'],
+
+            //vavigation style
+            navigation: true,
+            navigationPosition: 'right',
+            navigationTooltips: ['Welcome', 'Professions', 'Careers', 'Educations'],
+
+            //scroll style
+            css3: true,
+            scrollingSpeed: 700,
+            easing: 'easeInOutCubic',
+            easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
+            loopTop: true,
+
+            //accessibility
+            keyboardScrolling: true,
+            animateAnchor: true,
+            recordHistory: true,
+
+            //events
+            onLeave: function(index, nextIndex, direction){},
+        });
+    });
+</script></html>

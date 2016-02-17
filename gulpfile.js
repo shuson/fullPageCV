@@ -9,11 +9,6 @@ gulp.task('ect', function(){
       .pipe(gulp.dest('./dist'));
 });
 
-gulp.task('static', function(){
-    gulp.src(['./src/style.css', './src/script.js'])
-        .pipe(gulp.dest('./dist'));
-});
-
-gulp.task('default', ['ect', 'static'], function() {
+gulp.task('default', ['ect'], function() {
     console.log("type 'npm run serve' to deploy it to http-server\n");
 });
