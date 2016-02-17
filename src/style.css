@@ -3,28 +3,6 @@ body {
     font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
-
-/* Style for our header texts
-	* --------------------------------------- */
-
-h1 {
-    font-size: 4em;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-    margin: 10% auto;
-    width: auto;
-    text-decoration: underline;
-    text-decoration-color: #E3FFFE;
-}
-
-#first-name {
-    
-}
-
-#last-name {
-
-}
-
-
 /* Common styles
 	* --------------------------------------- */
 
@@ -33,6 +11,14 @@ img {
     -moz-transition: all 0.7s ease-out;
     -o-transition: all 0.7s ease-out;
     transition: all 0.7s ease-out;
+}
+
+a {
+    color: #808080;
+}
+
+a:hover {
+    color: #033649;
 }
 
 .section {
@@ -45,23 +31,55 @@ img {
 .wrap {
     width: 1180px;
     height: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     position: relative;
 }
 
 .box {
-    text-align: left;
+    text-align: center;
     color: #808080;
     font-size: 1.2em;
     line-height: 1.6em;
+    padding: 1.2em;
 }
 
 
 /* Section 0
 	* --------------------------------------- */
-#section0 {
+#section0 h1 {
+    font-size: 4em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin-top: 10%;
+    width: auto;
+    text-decoration: underline;
+    text-decoration-color: #E3FFFE;
+    color: #594F4F;
+}
 
+#first-name {
+    font-style: italic;
+    color: #7A6A53;
+}
+
+#last-name {
+
+}
+
+#section0 .contact {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.fa-envelope, .fa-phone {
+    display: none;
+}
+
+.email:hover i{
+    display: inline;
+}
+
+.phone:hover i{
+    display: inline;
 }
 
 #section0 img {

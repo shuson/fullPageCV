@@ -3,5 +3,10 @@
     "author": "nevermoi",
     "updatedOn": "2016-02-14",
     "firstName": "Tom",
-    "lastName": "Jackson"
+    "lastName": "Jackson",
+    "description": "This is a short example message",
+    "email": "cv@example.com",
+    "phone": "9876 5432",
+    "github": "https://github.com/",
+    "linkedin": "https://linkedin.com/"
 }
