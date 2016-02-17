@@ -52,7 +52,7 @@ a:hover {
     margin-top: 10%;
     width: auto;
     text-decoration: underline;
-    text-decoration-color: #E3FFFE;
+    text-decoration-color: #E8DDCB;
     color: #594F4F;
 }
 
@@ -67,7 +67,7 @@ a:hover {
 
 #section0 .contact {
     display: inline-block;
-    margin: 0 10px;
+    padding: 10px;
 }
 
 .fa-envelope, .fa-phone {

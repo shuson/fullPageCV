@@ -18,10 +18,19 @@
                     </span>
                     <br />
                     <span class="contact">
+                        <% if @github?.length : %>
                         <a href="<%- @github %>"><i class="fa fa-github fa-2x"></i></a>
+                        <% end %>
                     </span>
                     <span class="contact">
-                        <a href="<%- @linkedin %>"><i class="fa fa-linkedin fa-2x"></i></a>
+                        <% if @linkedin?.length : %>
+                        <a href="<%- @linkedin %>"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                        <% end %>
+                    </span>
+                    <span class="contact">
+                        <% if @website?.length : %>
+                        <a href="<%- @website %>"><i class="fa fa-home fa-2x"></i></a>
+                        <% end %>
                     </span>
                 </div>
             </div>

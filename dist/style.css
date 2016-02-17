@@ -67,7 +67,7 @@ a:hover {
 
 #section0 .contact {
     display: inline-block;
-    margin: 0 10px;
+    padding: 10px;
 }
 
 .fa-envelope, .fa-phone {
