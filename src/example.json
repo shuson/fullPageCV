@@ -19,6 +19,14 @@
         {
             "primary": "JavaScript",
             "enum": ["Nodejs", "Reactjs", "jQuery", "Vuejs"]
+        },
+        {
+            "primary": "Python",
+            "enum": ["Flask", "Beautiful Soup"]
+        },
+        {
+            "primary": "Others",
+            "enum": ["Nginx", "Linux", "Laravel"]
         }
     ]
 }

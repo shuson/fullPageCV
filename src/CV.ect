@@ -4,7 +4,7 @@
 
         <div id="fullpage">
             <div class="section" id="section0">
-                <h1><span id="first-name"><%= @firstName %></span> <span id="last-name"><%= @lastName %></span></h1>
+                <h1><span id="first-name"><%= @firstName %></span>, <span id="last-name"><%= @lastName %></span></h1>
                 <div class="box">
                     <em> <%- @description %> </em>
                 </div>
@@ -19,17 +19,17 @@
                     <br />
                     <span class="contact">
                         <% if @github?.length : %>
-                        <a href="<%- @github %>"><i class="fa fa-github fa-2x"></i></a>
+                        <a href="<%- @github %>" target="_blank"><i class="fa fa-github fa-2x"></i></a>
                         <% end %>
                     </span>
                     <span class="contact">
                         <% if @linkedin?.length : %>
-                        <a href="<%- @linkedin %>"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                        <a href="<%- @linkedin %>" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
                         <% end %>
                     </span>
                     <span class="contact">
                         <% if @website?.length : %>
-                        <a href="<%- @website %>"><i class="fa fa-home fa-2x"></i></a>
+                        <a href="<%- @website %>" target="_blank"><i class="fa fa-home fa-2x"></i></a>
                         <% end %>
                     </span>
                 </div>
@@ -51,17 +51,11 @@
             <div class="section moveDown" id="section2">
                 <h1>Careers</h1>
                 <div class="wrap">
-                    <div class="box">
-                        text in box div
-                    </div>
                 </div>
             </div>
             <div class="section moveDown" id="section3">
                 <h1>Educations</h1>
                 <div class="wrap">
-                    <div class="box">
-                        text in box div
-                    </div>
                 </div>
             </div>
         </div>

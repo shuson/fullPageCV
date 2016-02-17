@@ -48,8 +48,9 @@ a:hover {
 .wrap {
     width: 1180px;
     height: 100%;
-    margin: 0 auto;
+    margin: 3% auto;
     position: relative;
+    vertical-align: middle;
 }
 
 .box {
@@ -132,7 +133,7 @@ a:hover {
 #section1 h1 {
     font-size: 3em;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    margin-top: 5%;
+    margin-top: 2%;
     width: auto;
     color: #594F4F;
     text-shadow: 3px 3px #547980;
@@ -176,17 +177,14 @@ a:hover {
 #section2 h1 {
     font-size: 3em;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    margin-top: 5%;
+    margin-top: 2%;
     width: auto;
     color: #594F4F;
     text-shadow: 3px 3px #547980;
 }
 
-#section2 .box {
-    top: 22%;
-    left: 42%;
-    position: absolute;
-    width: 582px;
+#section2 .wrap {
+
 }
 
 
@@ -195,7 +193,7 @@ a:hover {
 #section3 h1 {
     font-size: 3em;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    margin-top: 5%;
+    margin-top: 2%;
     width: auto;
     color: #594F4F;
     text-shadow: 3px 3px #547980;
@@ -237,7 +235,7 @@ a:hover {
 
         <div id="fullpage">
             <div class="section" id="section0">
-                <h1><span id="first-name">Sam</span> <span id="last-name">Wang Shusen</span></h1>
+                <h1><span id="first-name">Sam</span>, <span id="last-name">Wang Shusen</span></h1>
                 <div class="box">
                     <em> Java and JavaScript stack developer </em>
                 </div>
@@ -251,13 +249,13 @@ a:hover {
                     </span>
                     <br />
                     <span class="contact">
-                                                <a href="https://github.com/shuson"><i class="fa fa-github fa-2x"></i></a>
+                                                <a href="https://github.com/shuson" target="_blank"><i class="fa fa-github fa-2x"></i></a>
                                             </span>
                     <span class="contact">
-                                                <a href="https://sg.linkedin.com/in/shuson"><i class="fa fa-linkedin-square fa-2x"></i></a>
+                                                <a href="https://sg.linkedin.com/in/shuson" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
                                             </span>
                     <span class="contact">
-                                                <a href="http://nevermoi.com"><i class="fa fa-home fa-2x"></i></a>
+                                                <a href="http://nevermoi.com" target="_blank"><i class="fa fa-home fa-2x"></i></a>
                                             </span>
                 </div>
             </div>
@@ -277,23 +275,28 @@ a:hover {
                     	                    	<span class="tag">jQuery</span>
                     	                    	<span class="tag">Vuejs</span>
                     	                    </div>
+                                        <div class="tag-panel">
+                    	<span class="tag expert">Python</span>
+                    	                    	<span class="tag">Flask</span>
+                    	                    	<span class="tag">Beautiful Soup</span>
+                    	                    </div>
+                                        <div class="tag-panel">
+                    	<span class="tag expert">Others</span>
+                    	                    	<span class="tag">Nginx</span>
+                    	                    	<span class="tag">Linux</span>
+                    	                    	<span class="tag">Laravel</span>
+                    	                    </div>
                                     </div>
             </div>
 
             <div class="section moveDown" id="section2">
                 <h1>Careers</h1>
                 <div class="wrap">
-                    <div class="box">
-                        text in box div
-                    </div>
                 </div>
             </div>
             <div class="section moveDown" id="section3">
                 <h1>Educations</h1>
                 <div class="wrap">
-                    <div class="box">
-                        text in box div
-                    </div>
                 </div>
             </div>
         </div>
@@ -318,7 +321,7 @@ a:hover {
             scrollingSpeed: 700,
             easing: 'easeInOutCubic',
             easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)',
-            loopTop: true,
+            loopBottom: true,
 
             //accessibility
             keyboardScrolling: true,
