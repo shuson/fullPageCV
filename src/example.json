@@ -35,22 +35,20 @@
             "company": "Fuji Xerox Singapore Software Center",
             "location": "Singapore",
             "title": "Software Engineer",
-            "startDate": "2015-01-19",
+            "startDate": "Jan, 2015",
             "endDate": "Present",
             "contributions": [
-                "con1",
-                "con2"
+                "Develop client side applications, including embedded browser apps, mobile apps and web apps, using JavaScript stack techs, corresponding with automated testing, continuous integration."
             ]
         },
         {
-            "company": "Fuji Xerox Singapore Software Center",
+            "company": "Crimson Logic",
             "location": "Singapore",
             "title": "Software Engineer",
-            "startDate": "2015-01-19",
-            "endDate": "Present",
+            "startDate": "Sept, 2013",
+            "endDate": "Dec, 2014",
             "contributions": [
-                "con1",
-                "con2"
+                "Get involed of full SDLC of 2 modules, made contribution to system design and implementation using Java stack techs: Spring and Hibernate"
             ]
         }
     ],
