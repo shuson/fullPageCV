@@ -6,6 +6,7 @@ An online demo is presented here: [CV](http://www.nevermoi.com/CV.html)
 ### Get started.
 1. make sure nodejs env is installed.
 2. `` git clone https://github.com/shuson/fullPageCV.git `` and run `` npm install``
+
 > this will install gulp and ectjs
 3. update example file in ``./src `` directory
 4. run `` gulp `` and the `` CV.html `` will be generated in `` ./dist `` directory.
