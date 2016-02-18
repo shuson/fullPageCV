@@ -1,7 +1,7 @@
 # fullPageCV
 > A full page CV generator
 
-An online demo is presented here: [CV](http://www.nevermoi.com/CV.html)
+An online demo is presented here: [CV](http://7mj59j.com1.z0.glb.clouddn.com/CV.html)
 
 ### Get started.
 1. make sure nodejs env is installed.

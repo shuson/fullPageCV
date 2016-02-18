@@ -1,15 +1,15 @@
 {
-    "title": "Sam Wang Shusen's CV",
+    "title": "007 James Bond's CV",
     "author": "nevermoi",
-    "updatedOn": "2016-02-14",
-    "firstName": "Sam",
-    "lastName": "Wang Shusen",
-    "description": "Java and JavaScript stack developer",
-    "email": "wlgq@hotmail.com",
-    "phone": "(65) 9876 5432",
-    "github": "https://github.com/shuson",
-    "linkedin": "https://sg.linkedin.com/in/shuson",
-    "website": "http://nevermoi.com",
+    "updatedOn": "2016-02-18",
+    "firstName": "007",
+    "lastName": "James Bond",
+    "description": "A MI6 agent & killer & programmer",
+    "email": "jb007@mi6.gov",
+    "phone": "(021) 3456 5432",
+    "github": "https://github.com/j007",
+    "linkedin": "https://sg.linkedin.com/in/j007",
+    "website": "http://james007.com",
 
     "stacks": [
         {
@@ -26,62 +26,56 @@
         },
         {
             "primary": "Others",
-            "enum": ["Nginx", "Linux", "Laravel"]
+            "enum": ["gun", "cannon", "rocket"]
         }
     ],
 
     "careers": [
         {
-            "company": "Fuji Xerox Singapore Software Center",
-            "location": "Singapore",
-            "title": "Software Engineer",
-            "startDate": "Jan, 2015",
+            "company": "MI6",
+            "location": "Cambridge",
+            "title": "Agent",
+            "startDate": "Jan, 2010",
             "endDate": "Present",
             "contributions": [
-                "Develop client side applications, including embedded browser apps, mobile apps and web apps, using JavaScript stack techs, corresponding with automated testing, continuous integration."
+                "Classified"
             ]
         },
         {
-            "company": "Crimson Logic",
-            "location": "Singapore",
-            "title": "Software Engineer",
-            "startDate": "Sept, 2013",
-            "endDate": "Dec, 2014",
+            "company": "MI6",
+            "location": "Cambridge",
+            "title": "Agent Intern",
+            "startDate": "Sept, 2006",
+            "endDate": "Dec, 2006",
             "contributions": [
-                "Get involed of full SDLC of 2 modules, made contribution to system design and implementation using Java stack techs: Spring and Hibernate"
+                "Classified"
             ]
         }
     ],
 
     "projects": [
         {
-            "title": "Frontier - Integrated Business Licensing System",
-            "company": "Crimson Logic",
+            "title": "Skyfall",
+            "company": "MI6",
             "descriptions": [
-                "Get involed of full SDLC of 2 modules, made contribution to system design and implementation using Java stack techs: Spring and Hibernate",
-                "Develop using Java EE technologies and testing"
+                "With MI6 now compromised inside and out, M turns to the one man she can trust: Bond. Aided only by a field agent."
             ]
         },
         {
-            "title": "Milesfair - Mileage Trade Ticketing System",
-            "company": "JJCube",
+            "title": "Spectre",
+            "company": "MI6",
             "descriptions": [
-                "Get involed of full SDLC of whole project.",
-                "Develop using Laravel technologies and testing"
+                "A cryptic message from the past leads James Bond to Mexico City and Rome, where he meets the beautiful widow  of an infamous criminal.",
+                "As Bond ventures toward the heart of SPECTRE, he discovers a chilling connection between himself and the enemy he seeks."
             ]
         }
     ],
 
     "educations": [
         {
-            "degree": "Bachelor in Information Technology",
-            "university": "CAU",
-            "grantedDate": "July, 2010"
-        },
-        {
-            "degree": "Graduate Diploma in System Analysis",
-            "university": "NUS",
-            "grantedDate": "July, 2013"
+            "degree": "Trouble",
+            "university": "Fettes College",
+            "grantedDate": "July, 1978"
         }
     ]
 }
