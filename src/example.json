@@ -28,5 +28,43 @@
             "primary": "Others",
             "enum": ["Nginx", "Linux", "Laravel"]
         }
+    ],
+
+    "careers": [
+        {
+            "company": "Fuji Xerox Singapore Software Center",
+            "location": "Singapore",
+            "title": "Software Engineer",
+            "startDate": "2015-01-19",
+            "endDate": "Present",
+            "contributions": [
+                "con1",
+                "con2"
+            ]
+        },
+        {
+            "company": "Fuji Xerox Singapore Software Center",
+            "location": "Singapore",
+            "title": "Software Engineer",
+            "startDate": "2015-01-19",
+            "endDate": "Present",
+            "contributions": [
+                "con1",
+                "con2"
+            ]
+        }
+    ],
+
+    "educations": [
+        {
+            "degree": "Bachelor in Information Technology",
+            "university": "CAU",
+            "grantedDate": "July, 2010"
+        },
+        {
+            "degree": "Graduate Diploma in System Analysis",
+            "university": "NUS",
+            "grantedDate": "July, 2013"
+        }
     ]
 }

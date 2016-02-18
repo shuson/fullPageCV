@@ -46,7 +46,7 @@ a:hover {
 
 
 .wrap {
-    width: 1180px;
+    width: 80%;
     height: 100%;
     margin: 3% auto;
     position: relative;
@@ -151,8 +151,8 @@ a:hover {
 
 #section1 .tag {
     font-size: 1.1em;
-    background-color: #F67280;
-    color: #aee2d9;
+    background-color: #FFFEC7;
+    color: #474747;
     border-radius: 3px;
     display: inline-block;
     padding: 2px 8px;
@@ -179,14 +179,42 @@ a:hover {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     margin-top: 2%;
     width: auto;
-    color: #594F4F;
-    text-shadow: 3px 3px #547980;
+    color: #111211;
+    text-shadow: 3px 3px #E8DDCB;
 }
 
 #section2 .wrap {
 
 }
 
+#section2 .entry-panel {
+    margin: 1em auto;
+    width: 70%;
+    text-align: left;
+}
+
+.entry-head {
+
+}
+
+.entry-title {
+    font-size: 1.4em;
+    color: #112;
+}
+
+.entry-company {
+    font-size: 1.2em;
+    color: #BCBCBC;
+}
+
+.entry-body {
+    color: #BCBCBC;
+    font-size: 1.1em;
+}
+
+.entry-body li {
+    margin: 0.6em auto;
+}
 
 /* Section 3
 	* --------------------------------------- */
@@ -199,9 +227,11 @@ a:hover {
     text-shadow: 3px 3px #547980;
 }
 
-#section3 .box {
+#section3 .record-panel {
     text-align: center;
-    margin: 10% 0 0 0;
+    margin: 1.5em auto;
+    color: #424242;
+    font-size: 1.4em;
 }
 
 
@@ -223,6 +253,7 @@ a:hover {
 }
 
 </style>
+
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.7/jquery.fullPage.min.js"></script>
@@ -262,54 +293,89 @@ a:hover {
             <div class="section" id="section1">
                 <h1>Professions</h1>
                 <div class="wrap">
-            		                    <div class="tag-panel">
-                    	<span class="tag expert">Java</span>
-                    	                    	<span class="tag">Spring MVC</span>
-                    	                    	<span class="tag">Maven</span>
-                    	                    	<span class="tag">Hibernate</span>
-                    	                    </div>
-                                        <div class="tag-panel">
-                    	<span class="tag expert">JavaScript</span>
-                    	                    	<span class="tag">Nodejs</span>
-                    	                    	<span class="tag">Reactjs</span>
-                    	                    	<span class="tag">jQuery</span>
-                    	                    	<span class="tag">Vuejs</span>
-                    	                    </div>
-                                        <div class="tag-panel">
-                    	<span class="tag expert">Python</span>
-                    	                    	<span class="tag">Flask</span>
-                    	                    	<span class="tag">Beautiful Soup</span>
-                    	                    </div>
-                                        <div class="tag-panel">
-                    	<span class="tag expert">Others</span>
-                    	                    	<span class="tag">Nginx</span>
-                    	                    	<span class="tag">Linux</span>
-                    	                    	<span class="tag">Laravel</span>
-                    	                    </div>
-                                    </div>
+                                            <div class="tag-panel">
+                            <span class="tag expert">Java</span>
+                                                            <span class="tag">Spring MVC</span>
+                                                                <span class="tag">Maven</span>
+                                                                <span class="tag">Hibernate</span>
+                                                        </div>
+                                                <div class="tag-panel">
+                            <span class="tag expert">JavaScript</span>
+                                                            <span class="tag">Nodejs</span>
+                                                                <span class="tag">Reactjs</span>
+                                                                <span class="tag">jQuery</span>
+                                                                <span class="tag">Vuejs</span>
+                                                        </div>
+                                                <div class="tag-panel">
+                            <span class="tag expert">Python</span>
+                                                            <span class="tag">Flask</span>
+                                                                <span class="tag">Beautiful Soup</span>
+                                                        </div>
+                                                <div class="tag-panel">
+                            <span class="tag expert">Others</span>
+                                                            <span class="tag">Nginx</span>
+                                                                <span class="tag">Linux</span>
+                                                                <span class="tag">Laravel</span>
+                                                        </div>
+                                        </div>
             </div>
 
             <div class="section moveDown" id="section2">
                 <h1>Careers</h1>
                 <div class="wrap">
-                </div>
+                                            <div class="entry-panel">
+                            <div class="entry-head">
+                                <span class="entry-title">Software Engineer</span> @ <span class="entry-company">Fuji Xerox Singapore Software Center, Singapore</%-></span>
+                            </div>
+                            <div class="entry-body">
+                                <ul>
+                                                                    <li>con1</li>
+                                                                    <li>con2</li>
+                                                                </ul>
+                            </div>
+                        </div>
+                                                <div class="entry-panel">
+                            <div class="entry-head">
+                                <span class="entry-title">Software Engineer</span> @ <span class="entry-company">Fuji Xerox Singapore Software Center, Singapore</%-></span>
+                            </div>
+                            <div class="entry-body">
+                                <ul>
+                                                                    <li>con1</li>
+                                                                    <li>con2</li>
+                                                                </ul>
+                            </div>
+                        </div>
+                                        </div>
             </div>
             <div class="section moveDown" id="section3">
                 <h1>Educations</h1>
                 <div class="wrap">
-                </div>
+                                        <div class="record-panel">
+                        <h3>Bachelor in Information Technology</h3>
+                        <div>
+                            <span>CAU</span>, &nbsp;
+                            <span>July, 2010</span>
+                        </div>
+                    </div>
+                                        <div class="record-panel">
+                        <h3>Graduate Diploma in System Analysis</h3>
+                        <div>
+                            <span>NUS</span>, &nbsp;
+                            <span>July, 2013</span>
+                        </div>
+                    </div>
+                                    </div>
             </div>
         </div>
 
-    </body>
-</body>
+    </body></body>
     <script type="text/javascript">
     $(document).ready(function () {
         $('#fullpage').fullpage({
             //design
             controlArrows: true,
             verticalCentered: false,
-            sectionsColor: ['#80D7FF', '#69E875', '#FFEE73', '#FFA49D'],
+            sectionsColor: ['#A7C5BD', '#CF4647', '#355C7D', '#E5DDCB'],
 
             //vavigation style
             navigation: true,
@@ -332,4 +398,5 @@ a:hover {
             onLeave: function(index, nextIndex, direction){},
         });
     });
-</script></html>
+</script>
+</html>

@@ -37,25 +37,48 @@
             <div class="section" id="section1">
                 <h1>Professions</h1>
                 <div class="wrap">
-            		<% for stack in @stacks : %>
-                    <div class="tag-panel">
-                    	<span class="tag expert"><%- stack.primary %></span>
-                    	<% for skill in stack.enum : %>
-                    	<span class="tag"><%- skill %></span>
-                    	<% end %>
-                    </div>
-                    <% end %>
+                    <% for stack in @stacks : %>
+                        <div class="tag-panel">
+                            <span class="tag expert"><%- stack.primary %></span>
+                            <% for skill in stack.enum : %>
+                                <span class="tag"><%- skill %></span>
+                                <% end %>
+                        </div>
+                        <% end %>
                 </div>
             </div>
 
             <div class="section moveDown" id="section2">
                 <h1>Careers</h1>
                 <div class="wrap">
+                    <% for job in @careers : %>
+                        <div class="entry-panel">
+                            <div class="entry-head">
+                                <span class="entry-title"><%- job.title %></span> @ <span class="entry-company"><%- job.company %>, <%- job.location %></%-></span>
+                            </div>
+                            <div class="entry-body">
+                                <ul>
+                                <% for con in job.contributions : %>
+                                    <li><%- con %></li>
+                                <% end %>
+                                </ul>
+                            </div>
+                        </div>
+                        <% end %>
                 </div>
             </div>
             <div class="section moveDown" id="section3">
                 <h1>Educations</h1>
                 <div class="wrap">
+                    <% for edu in @educations : %>
+                    <div class="record-panel">
+                        <h3><%- edu.degree %></h3>
+                        <div>
+                            <span><%- edu.university %></span>, &nbsp;
+                            <span><%- edu.grantedDate %></span>
+                        </div>
+                    </div>
+                    <% end %>
                 </div>
             </div>
         </div>
