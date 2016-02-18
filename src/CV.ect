@@ -49,22 +49,44 @@
             </div>
 
             <div class="section moveDown" id="section2">
-                <h1>Careers</h1>
-                <div class="wrap">
-                    <% for job in @careers : %>
-                        <div class="entry-panel">
-                            <div class="entry-head">
-                                <span class="entry-title"><%- job.title %></span> @ <span class="entry-company"><%- job.company %>, <%- job.location %></%-></span>
+                <div class="slide">
+                    <h1>Careers</h1>
+                    <div class="wrap">
+                        <% for job in @careers : %>
+                            <div class="entry-panel">
+                                <div class="entry-head">
+                                    <span class="entry-title"><%- job.title %></span> @ <span class="entry-company"><%- job.company %>, <%- job.location %></%-></span>
+                                    <p class="entry-date"><%- job.startDate %> - <%- job.endDate %></p>
+                                </div>
+                                <div class="entry-body">
+                                    <ul>
+                                    <% for con in job.contributions : %>
+                                        <li><%- con %></li>
+                                    <% end %>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="entry-body">
-                                <ul>
-                                <% for con in job.contributions : %>
-                                    <li><%- con %></li>
-                                <% end %>
-                                </ul>
+                            <% end %>
+                    </div>
+                </div>
+                <div class="slide">
+                    <h1>Projects</h1>
+                    <div class="wrap">
+                        <% for project in @projects : %>
+                            <div class="entry-panel">
+                                <div class="entry-head">
+                                    <span class="entry-title"><%- project.title %></span> @ <span class="entry-company"><%- project.company %></%-></span>
+                                </div>
+                                <div class="entry-body">
+                                    <ul>
+                                    <% for desc in project.descriptions : %>
+                                        <li><%- desc %></li>
+                                    <% end %>
+                                    </ul>
+                                </div>
                             </div>
-                        </div>
                         <% end %>
+                    </div>
                 </div>
             </div>
             <div class="section moveDown" id="section3">

@@ -53,6 +53,25 @@
         }
     ],
 
+    "projects": [
+        {
+            "title": "Frontier - Integrated Business Licensing System",
+            "company": "Crimson Logic",
+            "descriptions": [
+                "Get involed of full SDLC of 2 modules, made contribution to system design and implementation using Java stack techs: Spring and Hibernate",
+                "Develop using Java EE technologies and testing"
+            ]
+        },
+        {
+            "title": "Milesfair - Mileage Trade Ticketing System",
+            "company": "JJCube",
+            "descriptions": [
+                "Get involed of full SDLC of whole project.",
+                "Develop using Laravel technologies and testing"
+            ]
+        }
+    ],
+
     "educations": [
         {
             "degree": "Bachelor in Information Technology",

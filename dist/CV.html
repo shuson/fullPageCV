@@ -207,6 +207,11 @@ a:hover {
     color: #413E4A;
 }
 
+.entry-date {
+    font-size: 0.8em;
+    color: #CBBCBB;
+}
+
 .entry-body {
     color: #BCBCBC;
     font-size: 1.1em;
@@ -251,7 +256,6 @@ a:hover {
 .fp-slidesNav .active span {
     background: #AAA;
 }
-
 </style>
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -321,29 +325,60 @@ a:hover {
             </div>
 
             <div class="section moveDown" id="section2">
-                <h1>Careers</h1>
-                <div class="wrap">
-                                            <div class="entry-panel">
-                            <div class="entry-head">
-                                <span class="entry-title">Software Engineer</span> @ <span class="entry-company">Fuji Xerox Singapore Software Center, Singapore</%-></span>
+                <div class="slide">
+                    <h1>Careers</h1>
+                    <div class="wrap">
+                                                    <div class="entry-panel">
+                                <div class="entry-head">
+                                    <span class="entry-title">Software Engineer</span> @ <span class="entry-company">Fuji Xerox Singapore Software Center, Singapore</%-></span>
+                                    <p class="entry-date">Jan, 2015 - Present</p>
+                                </div>
+                                <div class="entry-body">
+                                    <ul>
+                                                                            <li>Develop client side applications, including embedded browser apps, mobile apps and web apps, using JavaScript stack techs, corresponding with automated testing, continuous integration.</li>
+                                                                        </ul>
+                                </div>
                             </div>
-                            <div class="entry-body">
-                                <ul>
-                                                                    <li>Develop client side applications, including embedded browser apps, mobile apps and web apps, using JavaScript stack techs, corresponding with automated testing, continuous integration.</li>
-                                                                </ul>
+                                                        <div class="entry-panel">
+                                <div class="entry-head">
+                                    <span class="entry-title">Software Engineer</span> @ <span class="entry-company">Crimson Logic, Singapore</%-></span>
+                                    <p class="entry-date">Sept, 2013 - Dec, 2014</p>
+                                </div>
+                                <div class="entry-body">
+                                    <ul>
+                                                                            <li>Get involed of full SDLC of 2 modules, made contribution to system design and implementation using Java stack techs: Spring and Hibernate</li>
+                                                                        </ul>
+                                </div>
                             </div>
-                        </div>
-                                                <div class="entry-panel">
-                            <div class="entry-head">
-                                <span class="entry-title">Software Engineer</span> @ <span class="entry-company">Crimson Logic, Singapore</%-></span>
+                                                </div>
+                </div>
+                <div class="slide">
+                    <h1>Projects</h1>
+                    <div class="wrap">
+                                                    <div class="entry-panel">
+                                <div class="entry-head">
+                                    <span class="entry-title">Frontier - Integrated Business Licensing System</span> @ <span class="entry-company">Crimson Logic</%-></span>
+                                </div>
+                                <div class="entry-body">
+                                    <ul>
+                                                                            <li>Get involed of full SDLC of 2 modules, made contribution to system design and implementation using Java stack techs: Spring and Hibernate</li>
+                                                                            <li>Develop using Java EE technologies and testing</li>
+                                                                        </ul>
+                                </div>
                             </div>
-                            <div class="entry-body">
-                                <ul>
-                                                                    <li>Get involed of full SDLC of 2 modules, made contribution to system design and implementation using Java stack techs: Spring and Hibernate</li>
-                                                                </ul>
+                                                    <div class="entry-panel">
+                                <div class="entry-head">
+                                    <span class="entry-title">Milesfair - Mileage Trade Ticketing System</span> @ <span class="entry-company">JJCube</%-></span>
+                                </div>
+                                <div class="entry-body">
+                                    <ul>
+                                                                            <li>Get involed of full SDLC of whole project.</li>
+                                                                            <li>Develop using Laravel technologies and testing</li>
+                                                                        </ul>
+                                </div>
                             </div>
-                        </div>
-                                        </div>
+                                            </div>
+                </div>
             </div>
             <div class="section moveDown" id="section3">
                 <h1>Educations</h1>
@@ -380,6 +415,8 @@ a:hover {
             navigation: true,
             navigationPosition: 'right',
             navigationTooltips: ['Welcome', 'Professions', 'Careers', 'Educations'],
+            slidesNavigation: true,
+            slidesNavPosition: 'bottom',
 
             //scroll style
             css3: true,
