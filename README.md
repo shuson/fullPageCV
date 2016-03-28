@@ -1,4 +1,4 @@
-# fullPageCV
+# fullPageCV Generator
 > A full page CV generator
 
 An online demo is presented here: [CV](http://7mj59j.com1.z0.glb.clouddn.com/CV.html)
